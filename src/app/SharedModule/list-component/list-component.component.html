@@ -1,0 +1,13 @@
+
+    <section >
+        <h2>liste des elements contenu dans listComponent</h2>
+        <ul>
+           <li *ngFor="let item of items">{{item|uppercase}}</li>  
+        </ul>
+        <div>
+            <p>Aujoud'hui est {{today | date}}</p>
+            <p>il est exactement {{today | date:'h:mm '}}</p>
+        </div>
+        <hr>
+    </section>
+
